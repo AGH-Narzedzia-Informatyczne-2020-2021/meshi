@@ -12,4 +12,4 @@
 
 | Resource link      | Description | License |
 | :------------- | :----------: | -----------: |
-|  [Python]() | Programming language used | |
+|  [Python v3.9.0](https://www.python.org/) | The main programming language used in the project | [ZERO-CLAUSE BSD LICENSE](https://docs.python.org/3/license.html#zero-clause-bsd-license-for-code-in-the-python-release-documentation) |
