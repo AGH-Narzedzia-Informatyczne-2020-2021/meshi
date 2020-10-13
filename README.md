@@ -7,3 +7,9 @@
 # For contributing guidelines checkout the [CONTRIBUTING](meshi/CONTRIBUTING.md) file
 
 # [Contributors list](Contributors.csv) 
+
+# Used technologies
+
+| Resource link      | Description | License |
+| :------------- | :----------: | -----------: |
+|  [Python]() | Programming language used | |
