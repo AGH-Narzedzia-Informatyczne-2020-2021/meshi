@@ -56,7 +56,9 @@ Bad example: `Change passwd hashing algorithm and fix naming issue`
 
 Egzample: `[Bug #253] Email validation does not require '@' sign`
 
-# Workflow
+# Git Workflow
+ 
+*See [AGILE_WORKFLOW](AGILE_WORKFLOW.md) file for details of working in agile methodology.*
 
 ## Initial Setup
 
