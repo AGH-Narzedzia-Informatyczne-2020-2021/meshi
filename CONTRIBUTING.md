@@ -1,9 +1,9 @@
 # Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change.
+email or any other method with the owners of this repository before making a change.
 
-After contributing, please submit a request in order to be added to the [contributors](Contributors.csv) list. The request should take the form of an, appropriately titled, issue and include a reference to your contribution.
+After contributing, please submit a request in order to be added to the [contributors](Contributors.csv) list. The request should take the form of an appropriately titled issue and include a reference to your contribution.
 
 # General rules
 
@@ -29,32 +29,32 @@ After contributing, please submit a request in order to be added to the [contrib
 * description of the problem (if Bug)
 * detailed minimum requirenments for Pull Request approval process
 
-## 2. Commits
+## 3. Commits
 
 ### Messages
 
 * Use the **present tense** ("Add feature" not "Added feature")
 * Use the **imperative mood** ("Move cursor to..." not "Moves cursor to...")
 * Limit the first line to **50 characters or less**
-* Reference all issues, branches, pull requests by prefesing their names with '#'
+* Reference all issues, branches, pull requests by preceding their names with '#'
 
 Example: `Remove redundant code added in #234`
 
 ### Good practise
 
-* commit frequently to not loose yourself in all the changes
-* commit should be consise and regard single fix/change
+* commit frequently to not lose yourself in all the changes
+* commit should be concise and regard single fix/change
 
 Bad example: `Change passwd hashing algorithm and fix naming issue`
 
-## 3. Pull Requests
+## 4. Pull Requests
 
 ### Naming
 
 * name starts with Issue/branch category label and number in square brackets followed by
 * next follows the relevant Issue name
 
-Egzample: `[Bug #253] Email validation does not require '@' sign`
+Example: `[Bug #253] Email validation does not require '@' sign`
 
 # Workflow
 
@@ -102,7 +102,7 @@ $ git add example.html
 # eg. stage specific folder (replace with folder path)
 $ git add exampleFolder
 
-# unstage accdentaly staged file
+# unstage accidentaly staged file
 $ git reset HEAD example.html
 
 # you can check the status of files using
