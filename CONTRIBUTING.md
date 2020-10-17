@@ -70,24 +70,30 @@ git clone https://github.com/AGH-IT-tools-Group-1/meshi.git
 
 ## Issue Creation Process
 
-1. Create an issue describing a task you want to work on. Tag the issue with a relevant tag (eg. **#Bug**, **#Feature**)
+1. Create an issue describing a task you want to work on. See the [AGILE_WORKFLOW](AGILE_WORKFLOW.md) file for Issue creation details.  
 
-2. Get the issue **approved** and **scored/evaluated** (assign story points) by the rest of the team members.
+2. Tag the issue with a relevant tag (eg. **#Bug**, **#Task**, **#User Story**)
 
-3. From the **#dev** branch create a new branch named #issue- number. (eg. **Issue #235** -> **Branch #235**)
+3. Get the issue **approved** and **scored/evaluated** (assign story points) by the rest of the team members.
 
-```
+```sh
 # create new branch named #235
 git checkout -b 235 
 ```
 
 ## Development Process
 
-### 1. Work on the issue using the corresponding branch.
+### 1. Work on the issue using the corresponding branch
 
 ```sh
-# switch to specific branch
-$ git checkout 235
+# create a new branch named #issue-number from #dev branch
+# (eg. **Issue #235** -> **Branch #235**)
+# to do so, checkout (swith) to #dev branch
+$ git checkout dev
+
+# now create the specific new branch (git automatically will base the new branch on #dev)
+# switches you to the specific branch and creates it
+$ git checkout -b 235
 
 # do some changes to the files
 ```
