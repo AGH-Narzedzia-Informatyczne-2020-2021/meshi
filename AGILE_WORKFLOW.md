@@ -4,10 +4,10 @@
 
 * ### **User Story**
 
-  * is comprised of **sub-tasks**
+  * is comprised of **subtasks**
   * describes a **larger** piece of system's **functionality**
   * describes a piece of system functionality from a **user's perspective**
-  * summ of work from multiple people
+  * sum of work from multiple people
 
   Needs to specify:
 
@@ -27,12 +27,12 @@
 
 * ### **Bug**
 
-  * technicaly a type of **Task**
-  * details **occurance conditions** of a specified bug
+  * technically a type of **Task**
+  * details **occurrence conditions** of a specified bug
   
   Needs to specify:
   
-  * **unwanted, unexpected behaviour** of the system (images, printscreens are welcomed)
+  * **unwanted, unexpected behaviour** of the system (images, screenshots are welcomed)
   * **desired, correct behaviour** of the system
 
 ## Writing Issues
