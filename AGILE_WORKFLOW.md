@@ -76,7 +76,7 @@
       Add a password validation for login form. Restrict: length, characters.
 
       Acceptance Criteria:
-      *  Password should ahve these restictions
+      *  Password should have these restictions
         - [ ] at leat one special character
         - [ ] at least one digit
         - [ ] at least 12 characters long 
