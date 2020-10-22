@@ -4,7 +4,18 @@ Personal meal planner
 
 ## Initial setup
 
-1. ### Install Python v3.8.5 
+1. ### Install **PostgreSQL v12.04** database
+
+```sh
+# for debian based linux system
+$ sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+$ wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+$ sudo apt-get update
+$ sudo apt-get -y install postgresql-12
+```
+For other operating systems see the official [download website](https://www.postgresql.org/download/) for PostgreSQL.
+
+2. ### Install Python v3.8.5 
 ```sh
 # for debian based linux system
 $ sudo add-apt-repository ppa:deadsnakes/ppa
@@ -19,30 +30,26 @@ $ python3.8 -V
 
 For other operating systems see the official [download website](https://www.python.org/downloads/release/python-385/) for Python.
 
-2. Install **pip** - a package manager for Python
+3. ### Install **pip** - a package manager for Python
 
 ```sh
 # for debian based linux system
 $ apt install python3-pip
 ```
 
-3. Install necesary python packages using pip
+4. ### Install necesary python packages using pip
 
 ```sh
 # in repository root
 $ pip3 install -r requirements.txt
 ```
 
-4. Install **PostgreSQL v12.04** database
+5. ### Run the test server
 
 ```sh
-# for debian based linux system
-$ sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
-$ wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
-$ sudo apt-get update
-$ sudo apt-get -y install postgresql-12
+# run the test server to verify correct instalation
+$ python3 meshi/manage.py runserver
 ```
-For other operating systems see the official [download website](https://www.postgresql.org/download/) for PostgreSQL.
 
 ## Project [licence](meshi/LICENSE) - MIT
 
