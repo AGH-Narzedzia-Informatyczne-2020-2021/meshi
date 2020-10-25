@@ -76,11 +76,6 @@ git clone https://github.com/AGH-IT-tools-Group-1/meshi.git
 
 3. Get the issue **approved** and **scored/evaluated** (assign story points) by the rest of the team members.
 
-```sh
-# create new branch named #235
-git checkout -b 235 
-```
-
 ## Development Process
 
 ### 1. Work on the issue using the corresponding branch
@@ -94,6 +89,9 @@ $ git checkout dev
 # now create the specific new branch (git automatically will base the new branch on #dev)
 # switches you to the specific branch and creates it
 $ git checkout -b 235
+
+# publish the newly created branch, and track it remotely
+$ git push -u origin 235
 
 # do some changes to the files
 ```
