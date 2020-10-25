@@ -37,7 +37,7 @@ For other operating systems see the official [download website](https://www.pyth
 $ apt install python3-pip
 ```
 
-4. ### Install necesary python packages using pip
+4. ### Install necessary python packages using pip
 
 ```sh
 # in repository root
