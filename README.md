@@ -51,8 +51,13 @@ $ pip3 install -r requirements.txt
 $ python3 meshi/manage.py runserver
 ```
 
- 6. ### Install black  
- Black can be installed by running ```pip install black```. It requires Python 3.6.0+ to run but you can reformat Python 2 code with it, too.
+ 6. ### Install black
+ 
+ ```sh
+  #Black can be installed by running  
+  $ pip install black   
+  #It requires Python 3.6.0+ to run but you can reformat Python 2 code with it, too.
+ ```
  
 ## Project documentation on [Overleaf](https://www.overleaf.com/project/5f952cfe700e1900017792fb)
 
