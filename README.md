@@ -29,7 +29,7 @@ Personal meal planner
     CREATE DATABASE meshi_db;
     ```
 
-    For the SECRETS.py file containing true database password contact [Laronk](https://github.com/Laronk).
+    For the SECRETS.py file containing true database password contact a [Meshi developers](https://github.com/orgs/AGH-Narzedzia-Informatyczne/teams/meshi-developers) team member.
 
     ```sql
     # create database user named 'meshi_user' with password
@@ -92,7 +92,7 @@ Personal meal planner
     $ touch .env
     ```
 
-    Write secrets to file. For correct file content contact [Laronk](https://github.com/Laronk).
+    Write secrets to file. For correct file content contact [Meshi developers](https://github.com/orgs/AGH-Narzedzia-Informatyczne/teams/meshi-developers) team member.
 
 7. ### Apply migrations
 
