@@ -44,6 +44,18 @@ $ apt install python3-pip
 $ pip3 install -r requirements.txt
 ```
 
+ 6. ### Install [Black](https://github.com/psf/black) - Python linter
+ ```sh
+  #Move to this pull requests branch
+  $ git checkout 27
+  #Get new changes from dev:
+  $ git pull origin dev
+  #Resolve conflicts (for example numeration will be off here)
+  #Black can be installed by running  
+  $ pip3 install black   
+  #It requires Python 3.6.0+ to run but you can reformat Python 2 code with it, too.
+ ```
+
 5. ### Run the test server
 
 ```sh
@@ -51,13 +63,6 @@ $ pip3 install -r requirements.txt
 $ python3 meshi/manage.py runserver
 ```
 
- 6. ### Install [Black](https://github.com/psf/black) - Python linter
- ```sh
-  #Black can be installed by running  
-  $ pip install black   
-  #It requires Python 3.6.0+ to run but you can reformat Python 2 code with it, too.
- ```
- 
 ## Project documentation on [Overleaf](https://www.overleaf.com/project/5f952cfe700e1900017792fb)
 
 ## Project [licence](meshi/LICENSE) - MIT
