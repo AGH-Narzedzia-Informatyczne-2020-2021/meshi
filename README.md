@@ -82,7 +82,7 @@ $ apt install python3-pip
 $ pip3 install -r meshi/requirements.txt
 ```
 
-### 6. Install black
+### 6. Install [Black](https://github.com/psf/black) - Python linter
 
 ```sh
 #Black can be installed by running  
