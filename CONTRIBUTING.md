@@ -171,3 +171,10 @@ $ git checkout dev
 # merge your branch into destination branch
 $ git merge 235
 ```
+
+## Black workflow - linting python code  
+### 1. Usage
+Execute the following command in the project root directory if you are planning to commit the changed python files.
+```sh
+$ black -q */*.py
+```
