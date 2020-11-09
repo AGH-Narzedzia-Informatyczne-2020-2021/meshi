@@ -14,6 +14,7 @@
   ```sh
   git add .
   git commit -m "Adequate commit message"
+  git push
   ```
 
 ### 4. Swith to branch _conflict_training_ branch.
@@ -33,6 +34,7 @@
   ```sh
   git add .
   git commit -m "Resolve conflicts with the conflict_creating branch"
+  git push
   ```
 
 ## [Aleksander2a](https://github.com/Aleksander2a)'s conflicts section
@@ -49,6 +51,7 @@
   ```sh
   git add .
   git commit -m "Adequate commit message"
+  git push
   ```
 
 ### 4. Swith to branch _conflict_training_ branch.
@@ -68,6 +71,7 @@
   ```sh
   git add .
   git commit -m "Resolve conflicts with the conflict_creating branch"
+  git push
   ```
   
 ## [YgLK](https://github.com/YgLK)'s conflicts section
@@ -84,6 +88,7 @@
   ```sh
   git add .
   git commit -m "Adequate commit message"
+  git push
   ```
 
 ### 4. Swith to branch _conflict_training_ branch.
@@ -103,6 +108,7 @@
   ```sh
   git add .
   git commit -m "Resolve conflicts with the conflict_creating branch"
+  git push
   ```
 
 ## [danielhenel](https://github.com/danielhenel)'s conflicts section
@@ -119,6 +125,7 @@
   ```sh
   git add .
   git commit -m "Adequate commit message"
+  git push
   ```
 
 ### 4. Swith to branch _conflict_training_ branch.
@@ -138,6 +145,7 @@
   ```sh
   git add .
   git commit -m "Resolve conflicts with the conflict_creating branch"
+  git push
   ```
 
 ## [piotrekg35](https://github.com/piotrekg35)'s conflicts section
@@ -154,6 +162,7 @@
   ```sh
   git add .
   git commit -m "Adequate commit message"
+  git push
   ```
 
 ### 4. Swith to branch _conflict_training_ branch.
@@ -173,4 +182,5 @@
   ```sh
   git add .
   git commit -m "Resolve conflicts with the conflict_creating branch"
+  git push
   ```
