@@ -12,7 +12,7 @@
 ### 3. Commit your super original changes to this file.
 
   ```sh
-  git add
+  git add .
   git commit -m "Adequate commit message"
   ```
 
@@ -31,7 +31,7 @@
 ### 7. Commit your resolved conflict.
 
   ```sh
-  git add
+  git add .
   git commit -m "Resolve conflicts with the conflict_creating branch"
   ```
 
@@ -47,7 +47,7 @@
 ### 3. Commit your super original changes to this file.
 
   ```sh
-  git add
+  git add .
   git commit -m "Adequate commit message"
   ```
 
@@ -66,7 +66,7 @@
 ### 7. Commit your resolved conflict.
 
   ```sh
-  git add
+  git add .
   git commit -m "Resolve conflicts with the conflict_creating branch"
   ```
   
@@ -82,7 +82,7 @@
 ### 3. Commit your super original changes to this file.
 
   ```sh
-  git add
+  git add .
   git commit -m "Adequate commit message"
   ```
 
@@ -101,7 +101,7 @@
 ### 7. Commit your resolved conflict.
 
   ```sh
-  git add
+  git add .
   git commit -m "Resolve conflicts with the conflict_creating branch"
   ```
 
@@ -117,7 +117,7 @@
 ### 3. Commit your super original changes to this file.
 
   ```sh
-  git add
+  git add .
   git commit -m "Adequate commit message"
   ```
 
@@ -136,7 +136,7 @@
 ### 7. Commit your resolved conflict.
 
   ```sh
-  git add
+  git add .
   git commit -m "Resolve conflicts with the conflict_creating branch"
   ```
 
@@ -152,7 +152,7 @@
 ### 3. Commit your super original changes to this file.
 
   ```sh
-  git add
+  git add .
   git commit -m "Adequate commit message"
   ```
 
@@ -171,6 +171,6 @@
 ### 7. Commit your resolved conflict.
 
   ```sh
-  git add
+  git add .
   git commit -m "Resolve conflicts with the conflict_creating branch"
   ```
