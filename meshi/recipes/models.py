@@ -24,4 +24,4 @@ class recipe(models.Model):
 
 class ingredient (models.Model):
     name = models.CharField(max_length=200)
-    quantity =  models.IntegerField()
+    quantity =  models.IntegerField() 
