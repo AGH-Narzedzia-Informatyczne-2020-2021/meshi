@@ -2,6 +2,8 @@
 
 ## [Laronk](https://github.com/Laronk)'s conflicts section
 
+\*Some smart and witty comment on the nature of human existance.\*
+
 ## [Aleksander2a](https://github.com/Aleksander2a)'s conflicts section
 
 ## [YgLK](https://github.com/YgLK)'s conflicts section
