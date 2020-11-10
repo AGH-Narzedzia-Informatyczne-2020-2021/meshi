@@ -10,6 +10,7 @@ Moj konflikt juz rozwiazany
 ## [YgLK](https://github.com/YgLK)'s conflicts section
 cokolwiek 
 ## [danielhenel](https://github.com/danielhenel)'s conflicts section
+To be, or not to be
 
 ## [piotrekg35](https://github.com/piotrekg35)'s conflicts section
 witam
