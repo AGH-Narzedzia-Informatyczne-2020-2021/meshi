@@ -5,6 +5,7 @@
 \*Some smart and witty comment on the nature of human existance.\*
 
 ## [Aleksander2a](https://github.com/Aleksander2a)'s conflicts section
+Moj konflikt juz rozwiazany
 
 ## [YgLK](https://github.com/YgLK)'s conflicts section
 cokolwiek 
