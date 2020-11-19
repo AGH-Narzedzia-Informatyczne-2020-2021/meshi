@@ -132,7 +132,7 @@ $ python3 meshi/manage.py runserver
 
 ## How to contribute
 
-For contributing guidelines & steps checkout [CONTRIBUTING](meshi/CONTRIBUTING.md) file.
+For contributing guidelines & steps checkout [CONTRIBUTING](CONTRIBUTING.md) file.
 
 To check the list of project contributors view the [contributors list](Contributors.csv).
 
