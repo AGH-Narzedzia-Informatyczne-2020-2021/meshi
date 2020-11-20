@@ -2,7 +2,15 @@
 
 Personal meal planner
 
-## Initial setup
+## Table of contents:  
+### 1. [Initial setup](#id1)  
+### 2. [Project documentation on Overleaf](#id2)  
+### 3. [Project licence - MIT](#id3)
+### 4. [How to contribute](#id4)
+### 5. [Technologies used](#id5)  
+
+    
+## Initial setup<a id="id1"></a>
 
 ### 1. Install **PostgreSQL v12.04** database
 
@@ -126,17 +134,17 @@ $ python3 meshi/manage.py createsuperuser
 $ python3 meshi/manage.py runserver
 ```
 
-## Project documentation on [Overleaf](https://www.overleaf.com/project/5f952cfe700e1900017792fb)
+## Project documentation on [Overleaf](https://www.overleaf.com/project/5f952cfe700e1900017792fb)<a id="id2"></a>
 
-## Project [licence](meshi/LICENSE) - MIT
+## Project [licence](meshi/LICENSE) - MIT<a id="id3"></a>
 
-## How to contribute
+## How to contribute<a id="id4"></a>
 
 For contributing guidelines & steps checkout [CONTRIBUTING](CONTRIBUTING.md) file.
 
 To check the list of project contributors view the [contributors list](Contributors.csv).
 
-## Technologies used
+## Technologies used<a id="id5"></a>
 
 | Resource link                                        |                    Description                    |                                                                                                                                License |
 | :--------------------------------------------------- | :-----------------------------------------------: | -------------------------------------------------------------------------------------------------------------------------------------: |
