@@ -139,11 +139,11 @@ To check the list of project contributors view the [contributors list](Contribut
 ## Our gists
 
 0,surname,name,gist #1,gist #2
-1,Karpiuk,Jan, ,
-2,Szpunar,Jakub, ,
+1,Karpiuk,Jan
+2,Szpunar,Jakub
 3,Mazur,Aleksander,[kolko_krzyzyk3x3](https://gist.github.com/Aleksander2a/b701448e05cc69c24070870e083476da),[projekt2](https://gist.github.com/Aleksander2a/6cce0ed5f621989691415f796fff3875)
-4,Henel,Daniel, ,
-5,Gacek,Piotr, ,
+4,Henel,Daniel
+5,Gacek,Piotr
 
 ## Technologies used
 
