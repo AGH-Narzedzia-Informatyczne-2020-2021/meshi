@@ -1,4 +1,12 @@
 # Agile workflow in Meshi project development
+## Table of contents
+>### 1. [Issue types](#issue-types)
+>### 2. [Writing Issues](#writing-issues)
+>### 3. [Team meetings](#team-meetings)
+>### 4. [Task estimating](#task-estimating-**Story-Points**)
+>### 5. [Additional definitions](#additional-definitions)
+
+
 
 ## Issue types
 
