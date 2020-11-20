@@ -1,16 +1,17 @@
-## Table of contents:
-### 1. [Contributing](#id1)
-### 2. [General rules](#id2)
-### 3. [Git Workflow](#id3)
+## Table of contents
 
-# Contributing<a id="id1"></a>
+>### 1. [Contributing](#contributing)
+>### 2. [General rules](#general-rules)
+>### 3. [Git Workflow](#git-workflow)
+
+# Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue,
 email or any other method with the owners of this repository before making a change.
 
 After contributing, please submit a request in order to be added to the [contributors](Contributors.csv) list. The request should take the form of an appropriately titled issue and include a reference to your contribution.
 
-# General rules<a id="id2"></a>
+# General rules
 
 ## 1. Language
 
@@ -61,7 +62,7 @@ Bad example: `Change passwd hashing algorithm and fix naming issue`
 
 Example: `[Bug #253] Email validation does not require '@' sign`
 
-# Git Workflow<a id="id3"></a>
+# Git Workflow
  
 *See [AGILE_WORKFLOW](AGILE_WORKFLOW.md) file for details of working in agile methodology.*
 
