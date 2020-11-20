@@ -141,6 +141,10 @@ To check the list of project contributors view the [contributors list](Contribut
 | Developer                                            |                    Gist #1                    |                                    Gist #2                          |
 | :--------------------------------------------------- | :-------------------------------------------: | --------------------------------------------------------------: |
 | Mazur Aleksander             | [kolko_krzyzyk3x3](https://gist.github.com/Aleksander2a/b701448e05cc69c24070870e083476da) | [projekt2](https://gist.github.com/Aleksander2a/6cce0ed5f621989691415f796fff3875) |
+| Karpiuk Jan                                          |                                                |                                                                    |
+| Henel Daniel                                         |                                                |                                                                    |
+| Piotr Gacek                                          |                                                |                                                                    |
+| Szpunar Jakub                                        |                                                |                                                                    |
 
 ## Technologies used
 
