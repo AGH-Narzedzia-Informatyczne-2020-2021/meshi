@@ -143,7 +143,7 @@ To check the list of project contributors view the [contributors list](Contribut
 | Mazur Aleksander             | [kolko_krzyzyk3x3](https://gist.github.com/Aleksander2a/b701448e05cc69c24070870e083476da) | [projekt2](https://gist.github.com/Aleksander2a/6cce0ed5f621989691415f796fff3875) |
 | Karpiuk Jan                                          |                                                |                                                                    |
 | Henel Daniel                                         |                                                |                                                                    |
-| Gacek Piotr                                          |                                                |                                                                    |
+| Gacek Piotr                | [ciag_fibonacciego](https://gist.github.com/piotrekg35/1c4ca47814d7a80a980a121123ac980e)     | [str](https://gist.github.com/piotrekg35/cf06897c09441e63ba327a004dbbc2ba)                                                                   |
 | Szpunar Jakub                                        |[account_model_v1](https://gist.github.com/YgLK/27ab4f06ab80e0c3195ac52a5bd84e75#file-account_model_v1)                                                | [custom_passw_validator](https://gist.github.com/YgLK/b6d818cdd23b1ab0be983b2166c48655#file-custom_passw_validator)                                                                   |
 
 ## Technologies used
