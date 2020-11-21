@@ -144,7 +144,7 @@ To check the list of project contributors view the [contributors list](Contribut
 | Karpiuk Jan                                          |                                                |                                                                    |
 | Henel Daniel                                         |                                                |                                                                    |
 | Gacek Piotr                                          |                                                |                                                                    |
-| Szpunar Jakub                                        |                                                |                                                                    |
+| Szpunar Jakub                                        |[account_model_v1](https://gist.github.com/YgLK/27ab4f06ab80e0c3195ac52a5bd84e75#file-account_model_v1)                                                | [custom_passw_validator](https://gist.github.com/YgLK/b6d818cdd23b1ab0be983b2166c48655#file-custom_passw_validator)                                                                   |
 
 ## Technologies used
 
