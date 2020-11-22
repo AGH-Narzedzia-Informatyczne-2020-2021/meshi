@@ -100,7 +100,7 @@
       1. register a new user with valid login and password
       2. sign in using only user login
 
-      Undersired bahaviour: 
+      Undesired behaviour: 
       * The registered user is able to login successfuly without providing a password  
       
       Desired behaviour:
