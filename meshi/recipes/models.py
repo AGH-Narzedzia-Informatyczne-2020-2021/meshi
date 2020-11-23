@@ -6,10 +6,10 @@ class Recipe(models.Model):
     title = models.CharField(max_length = 256)
     instructions = models.TextField()
     ingredients = models.ManyToManyField(ingredient)
-    image = models.ImageField(upload_to='meshi')
+    image = models.URLField(max_length=256)
     ease_of_prep = models.IntegerField(validators=[MaxValueValidator(10),MinValueValidator(1)])
     rating = models.IntegerField(validators=[MaxValueValidator(10),MinValueValidator(1)])
-    prep_time_min = models.IntegerField(validators=[MinValueValidator(1)])
+    prep_time = models.IntegerField(validators=[MinValueValidator(1)])
     notes = models.CharField(max_length = 256)
     types = models.CharField(max_length = 256)
 
