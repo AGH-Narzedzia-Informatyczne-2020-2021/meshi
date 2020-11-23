@@ -1,15 +1,22 @@
-## Table of contents
-
->### 1. [Contributing](#contributing)
->### 2. [General rules](#general-rules)
->### 3. [Git Workflow](#git-workflow)
-
 # Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue,
 email or any other method with the owners of this repository before making a change.
 
 After contributing, please submit a request in order to be added to the [contributors](Contributors.csv) list. The request should take the form of an appropriately titled issue and include a reference to your contribution.
+
+## Table of contents
+>### 1. [General rules](#general-rules)
+>>### a. [Language](#1.-language)
+>>### b. [Issues](#2.-issues)
+>>### c. [Commits](#3.-commits)
+>>### d. [Pull Requests](#4.-pull-requests)
+>### 2. [Git Workflow](#git-workflow)
+>>### a. [Initial Setup](#initial-setup)
+>>### b. [Issue Creation Process](#issue-creation-process)
+>>### c. [Development Process](#development-process)
+>>### d. [Pull Request Process](#pull-request-process)
+>>### e. [Black workflow - linting python code](#black-workflow---linting-python-code)
 
 # General rules
 
