@@ -1,13 +1,13 @@
 from django.test import TestCase
-from catalog.models import Author
+from recipes.models import recipe
 
-# Create your tests here.
 
 
 class RecipeModelTest(TestCase):
 
+    @classmethod
     def setUpTestData(cls):
-        recipe.objects.create()
+        cls.myRecipe = Recipe.objects.create()
         
 #title
     def test_title_content(self):
