@@ -70,14 +70,14 @@
 
       **As a user, I should** be able to log in to the service using login and password combination.
 
-      Acceptance Criteria:
+      ## Acceptance Criteria:
       *  A new login form is added to the website
         - [ ] form contains a login field
         - [ ] form contains a password field
         - [ ] form contains login button
       (...)
 
-      Notes:
+      ## Notes:
       can be various, loose ideas as to implementation, technologies (non essential stuff)
       (...)
 
@@ -91,14 +91,14 @@
 
       Add a password validation for login form. Restrict: length, characters.
 
-      Acceptance Criteria:
+      ## Acceptance Criteria:
       *  Password should have these restictions
         - [ ] at leat one special character
         - [ ] at least one digit
         - [ ] at least 12 characters long 
       (...)
 
-      Notes:
+      ## Notes:
       * use regular expression to validate a password against criteria 
       
       can be various, loose ideas as to implementation, technologies (non essential stuff)
@@ -112,18 +112,18 @@
 
     Description:
 
-      Steps to reproduce:
+      ## Steps to reproduce:
       1. register a new user with valid login and password
       2. sign in using only user login
 
-      Undersired bahaviour: 
+      ## Undesired behaviour: 
       * The registered user is able to login successfuly without providing a password  
       
-      Desired behaviour:
+      ## Desired behaviour:
       *  User is required to provide a password, user can not authenticate without a password 
       (...)
 
-      Notes:
+      ## Notes:
       an image showcasing the bug "in the field" would be welcome 
       can be various, loose ideas as to implementation, technologies (non essential stuff)
       (...)

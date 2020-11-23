@@ -145,6 +145,16 @@ For contributing guidelines & steps checkout [CONTRIBUTING](CONTRIBUTING.md) fil
 
 To check the list of project contributors view the [contributors list](Contributors.csv).
 
+## Our gists
+
+| Developer        |                                                 Gist #1                                                 |                                                       Gist #2                                                       |
+| :--------------- | :-----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
+| Mazur Aleksander |        [kolko_krzyzyk3x3](https://gist.github.com/Aleksander2a/b701448e05cc69c24070870e083476da)        |             [kolko_krzyzyk10x10](https://gist.github.com/Aleksander2a/6cce0ed5f621989691415f796fff3875)             |
+| Karpiuk Jan      |            [python_calc.py](https://gist.github.com/Laronk/b973296a4c4292e11fc3e5f4f83a1622)            |               [python_try_except.py](https://gist.github.com/Laronk/3caea800b8766f2a7f9631fcfd266549)               |
+| Henel Daniel     |                [add_item](https://gist.github.com/danielhenel/d651fff7476fe61fae9ee729d2d1779d)                                                                                         |     [copy_list](https://gist.github.com/danielhenel/106d7982e495533e3c32271fff25bf80)                                                                                                                |
+| Gacek Piotr      |        [ciag_fibonacciego](https://gist.github.com/piotrekg35/1c4ca47814d7a80a980a121123ac980e)         |                     [str](https://gist.github.com/piotrekg35/cf06897c09441e63ba327a004dbbc2ba)                      |
+| Szpunar Jakub    | [account_model_v1](https://gist.github.com/YgLK/27ab4f06ab80e0c3195ac52a5bd84e75#file-account_model_v1) | [custom_passw_validator](https://gist.github.com/YgLK/b6d818cdd23b1ab0be983b2166c48655#file-custom_passw_validator) |
+
 ## Technologies used
 
 | Resource link                                        |                    Description                    |                                                                                                                                License |
