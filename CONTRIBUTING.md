@@ -5,6 +5,19 @@ email or any other method with the owners of this repository before making a cha
 
 After contributing, please submit a request in order to be added to the [contributors](Contributors.csv) list. The request should take the form of an appropriately titled issue and include a reference to your contribution.
 
+## Table of contents
+>### 1. [General rules](#general-rules)
+>>### a. [Language](#1-language)
+>>### b. [Issues](#2-issues)
+>>### c. [Commits](#3-commits)
+>>### d. [Pull Requests](#4-pull-requests)
+>### 2. [Git Workflow](#git-workflow)
+>>### a. [Initial Setup](#initial-setup)
+>>### b. [Issue Creation Process](#issue-creation-process)
+>>### c. [Development Process](#development-process)
+>>### d. [Pull Request Process](#pull-request-process)
+>>### e. [Black workflow - linting python code](#black-workflow---linting-python-code)
+
 # General rules
 
 ## 1. Language

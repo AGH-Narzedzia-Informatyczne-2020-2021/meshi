@@ -1,4 +1,20 @@
 # Agile workflow in Meshi project development
+## Table of contents
+>### 1. [Issue types](#issue-types)
+>>### a. [User Story](#user-story)
+>>### b. [Task](#task)
+>>### c. [Bug](#bug)
+>### 2. [Writing Issues](#writing-issues)
+>>### a. [KISS rule](#1-kiss-rule)
+>>### b. [Issue types writing examples](#2-issue-types-writing-examples)
+>### 3. [Team meetings](#team-meetings)
+>>### a. [Standups](#standups)
+>>### b. [Sprint Planning](#sprint-planning)
+>>### c. [Sprint Review](#sprint-review)
+>### 4. [Task estimating](#task-estimating-story-points)
+>### 5. [Additional definitions](#additional-definitions)
+
+
 
 ## Issue types
 
