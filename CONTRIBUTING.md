@@ -7,10 +7,10 @@ After contributing, please submit a request in order to be added to the [contrib
 
 ## Table of contents
 >### 1. [General rules](#general-rules)
->>### a. [Language](#1.-language)
->>### b. [Issues](#2.-issues)
->>### c. [Commits](#3.-commits)
->>### d. [Pull Requests](#4.-pull-requests)
+>>### a. [Language](#1-language)
+>>### b. [Issues](#2-issues)
+>>### c. [Commits](#3-commits)
+>>### d. [Pull Requests](#4-pull-requests)
 >### 2. [Git Workflow](#git-workflow)
 >>### a. [Initial Setup](#initial-setup)
 >>### b. [Issue Creation Process](#issue-creation-process)
