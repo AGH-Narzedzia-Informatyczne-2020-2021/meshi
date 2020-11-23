@@ -8,7 +8,8 @@ Personal meal planner
 > ### 2. [Project documentation on Overleaf](#project-documentation-on-overleaf)  
 > ### 3. [Project licence - MIT](#project-licence---mit)
 > ### 4. [How to contribute](#how-to-contribute)
-> ### 5. [Technologies used](#technologies-used)  
+> ### 5. [Technologies used](#technologies-used) 
+> ### 6. [Our gists](#our-gists)  
 
         
 ## Initial setup
