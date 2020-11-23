@@ -73,6 +73,4 @@ class MyAccountManagerTests(TestCase):
             self.assertIsNotNone(admin_user.username)
         except AttributeError:
             pass
-        '''with self.assertRaises(ValueError):
-            Account.objects.create_superuser(
-                email='super@user.com', password='foo', username='user', is_superuser = True)'''
+        
