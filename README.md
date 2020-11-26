@@ -45,6 +45,7 @@ ALTER ROLE meshi_user SET timezone TO 'UTC';
 ```sql
 # grant permissions to the user
 GRANT ALL PRIVILEGES ON DATABASE meshi_db TO meshi_user;
+ALTER USER meshi_user CREATEDB;
 ```
 
 ```sh
