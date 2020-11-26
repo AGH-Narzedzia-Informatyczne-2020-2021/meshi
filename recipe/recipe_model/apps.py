@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class RecipeModelConfig(AppConfig):
-    name = 'recipe_model'
+    name = "recipe_model"
