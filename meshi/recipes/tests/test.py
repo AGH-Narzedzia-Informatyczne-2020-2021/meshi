@@ -1,2 +1,1 @@
-import models.test_recipes
-import models.test_ingredients
+from recipes.tests.models import test_recipes, test_ingredients
