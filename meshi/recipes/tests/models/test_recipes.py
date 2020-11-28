@@ -1,29 +1,30 @@
 from django.test import TestCase
 from recipes.models import Recipe
 from recipes.models import Ingredient
-from django.db.models.fields import IntegerField as IntegerField
+from django.db.models.fields import IntegerField
 
 
 class RecipeTest(TestCase):
-
     def setUp(self):
-        ingredient_1 = Ingredient.objects.create(id=1, name="1 cup Shredded Coconut").save()
+        ingredient_1 = Ingredient.objects.create(
+            id=1, name="1 cup Shredded Coconut"
+        ).save()
         ingredient_2 = Ingredient.objects.create(id=2, name="eggs").save()
         ingredient_3 = Ingredient.objects.create(id=3, name="butter").save()
         recipe_1 = Recipe.objects.create(
-            id=1, 
-            title="Maple-Sweetened Banana Muffins", 
+            id=1,
+            title="Maple-Sweetened Banana Muffins",
             instructions="Bring a pot of salted water to a boil.",
             image="",
             ease_of_prep="4",
             rating="10",
             prep_time="60",
-            notes='''Coconut Carrot Easter Cake is the perfect, 
+            notes="""Coconut Carrot Easter Cake is the perfect, 
             sweet end to a traditional Easter brunch. 
-            It has such a moist crumb, loads of flavor and a luscious frosting!''',
-            types="")
-        recipe_1.ingredients.add(1,2,3)
-
+            It has such a moist crumb, loads of flavor and a luscious frosting!""",
+            types="",
+        )
+        recipe_1.ingredients.add(1, 2, 3)
 
     def test_recipe_title_label(self):
         """This function checks if the object has title field"""
@@ -138,7 +139,7 @@ class RecipeTest(TestCase):
         recipe = Recipe.objects.get(id=1)
         max_length = Recipe._meta.get_field("notes").max_length
         self.assertEqual(max_length, 256)
-    
+
     def test_recipe_types_label(self):
         """This function checks if the object has types field"""
         field_label = Recipe._meta.get_field("types").verbose_name
@@ -156,4 +157,3 @@ class RecipeTest(TestCase):
         recipe = Recipe.objects.get(id=1)
         max_length = Recipe._meta.get_field("types").max_length
         self.assertEqual(max_length, 256)
-
