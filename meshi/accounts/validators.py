@@ -23,7 +23,7 @@ class CustomPasswordValidator:
                 % {"min_length": self.min_length}
             )
 
-        """ Validate whether the password has at least one special character."""    
+        """ Validate whether the password has at least one special character."""
         if not any(char in special_characters for char in password):
             raise ValidationError(
                 _("Password must contain at least %(min_length)d special character.")
