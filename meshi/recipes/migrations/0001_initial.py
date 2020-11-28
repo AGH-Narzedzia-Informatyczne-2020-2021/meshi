@@ -8,30 +8,50 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='Ingredient',
+            name="Ingredient",
             fields=[
-                ('id', models.AutoField(primary_key=True, serialize=False)),
-                ('name', models.CharField(max_length=128)),
+                ("id", models.AutoField(primary_key=True, serialize=False)),
+                ("name", models.CharField(max_length=128)),
             ],
         ),
         migrations.CreateModel(
-            name='Recipe',
+            name="Recipe",
             fields=[
-                ('id', models.AutoField(primary_key=True, serialize=False)),
-                ('title', models.CharField(max_length=256)),
-                ('instructions', models.TextField()),
-                ('image', models.URLField(max_length=256)),
-                ('ease_of_prep', models.IntegerField(validators=[django.core.validators.MaxValueValidator(10), django.core.validators.MinValueValidator(1)])),
-                ('rating', models.IntegerField(validators=[django.core.validators.MaxValueValidator(10), django.core.validators.MinValueValidator(1)])),
-                ('prep_time', models.IntegerField(validators=[django.core.validators.MinValueValidator(1)])),
-                ('notes', models.CharField(max_length=256)),
-                ('types', models.CharField(max_length=256)),
-                ('ingredients', models.ManyToManyField(to='recipes.Ingredient')),
+                ("id", models.AutoField(primary_key=True, serialize=False)),
+                ("title", models.CharField(max_length=256)),
+                ("instructions", models.TextField()),
+                ("image", models.URLField(max_length=256)),
+                (
+                    "ease_of_prep",
+                    models.IntegerField(
+                        validators=[
+                            django.core.validators.MaxValueValidator(10),
+                            django.core.validators.MinValueValidator(1),
+                        ]
+                    ),
+                ),
+                (
+                    "rating",
+                    models.IntegerField(
+                        validators=[
+                            django.core.validators.MaxValueValidator(10),
+                            django.core.validators.MinValueValidator(1),
+                        ]
+                    ),
+                ),
+                (
+                    "prep_time",
+                    models.IntegerField(
+                        validators=[django.core.validators.MinValueValidator(1)]
+                    ),
+                ),
+                ("notes", models.CharField(max_length=256)),
+                ("types", models.CharField(max_length=256)),
+                ("ingredients", models.ManyToManyField(to="recipes.Ingredient")),
             ],
         ),
     ]
