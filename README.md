@@ -10,6 +10,9 @@ Personal meal planner
 > ### 4. [How to contribute](#how-to-contribute)
 > ### 5. [Our gists](#our-gists)  
 > ### 6. [Technologies used](#technologies-used) 
+> ### 7. [Assects used](#assects-used) 
+
+
 
 
         
@@ -166,3 +169,9 @@ To check the list of project contributors view the [contributors list](Contribut
 | [HTML](https://html.spec.whatwg.org/)                |          Defines website pages structure          |                                                                                                                               Open Web |
 | [CSS](https://www.w3.org/Style/CSS/Overview.en.html) |             Website stylization tool              |                                                                                                                               Open Web |
 | [PostgreSQL](https://www.postgresql.org/)            |               The project database                |                                                      [The PostgreSQL Licence (PostgreSQL)](https://opensource.org/licenses/postgresql) |
+
+## Assects used  
+
+| Object | Author |  
+| :-----: | :-----: |
+| Social media image | [Freepik](http://www.freepik.com)
