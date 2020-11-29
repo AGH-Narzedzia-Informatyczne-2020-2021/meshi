@@ -174,4 +174,4 @@ To check the list of project contributors view the [contributors list](Contribut
 
 | Description | Author |  License |
 | :-----: | :-----: | :-----: |
-| Repository social media image | [Freepik](http://www.freepik.com) | Free Freepik License |
+| Repository social media image | [Freepik](http://www.freepik.com) | Free Freepik License(https://www.freepikcompany.com/legal#nav-freepik) |
