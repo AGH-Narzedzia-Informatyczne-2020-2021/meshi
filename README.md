@@ -174,4 +174,4 @@ To check the list of project contributors view the [contributors list](Contribut
 
 | Description | Author |  License |
 | :-----: | :-----: | :-----: |
-| Repository social media image | [Freepik](http://www.freepik.com) | [Licence information can be found in the .zip](https://github-production-repository-file-5c1aeb.s3.amazonaws.com/307047490/5536342?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20201129%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201129T130030Z&X-Amz-Expires=300&X-Amz-Signature=8f4140dc4ce52e1efce1b1203fa8bd28ec1dbf14b08511ebf5601cbbcab3c20c&X-Amz-SignedHeaders=host&actor_id=72696860&key_id=0&repo_id=307047490&response-content-disposition=attachment%3Bfilename%3Ddelicious-ramen-soup-background.zip&response-content-type=application%2Fzip) |
+| Repository social media image | [Freepik](http://www.freepik.com) | Free Freepik License |
