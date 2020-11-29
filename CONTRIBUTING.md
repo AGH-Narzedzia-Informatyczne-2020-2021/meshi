@@ -198,9 +198,9 @@ $ black -q */*.py
 
 ### 2. Before pushing your code to the repository, check if all tests are passed, otherwise resolve problems locally first
 
-### 3. pull request *will not* be merged without tests
+### 3. Pull request *will not* be merged without tests
 
-###  Command example
+### 4. Command example...
 Execute the following command ...
 ```sh
 ...
