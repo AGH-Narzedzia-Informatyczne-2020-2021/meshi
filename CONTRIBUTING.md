@@ -17,6 +17,7 @@ After contributing, please submit a request in order to be added to the [contrib
 >>### c. [Development Process](#development-process)
 >>### d. [Pull Request Process](#pull-request-process)
 >>### e. [Black workflow - linting python code](#black-workflow---linting-python-code)
+>>### f. [Testing](#testing)
 
 # General rules
 
@@ -190,4 +191,17 @@ $ git merge 235
 Execute the following command in the project root directory if you are planning to commit the changed python files.
 ```sh
 $ black -q */*.py
+```
+
+## Testing  
+### 1. When developing with Django, you must create adequate tests
+
+### 2. Before pushing your code to the repository, check if all tests are passed, otherwise resolve problems locally first
+
+### 3. pull request *will not* be merged without tests
+
+###  Command example
+Execute the following command ...
+```sh
+...
 ```
