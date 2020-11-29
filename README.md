@@ -130,7 +130,19 @@ $ python3 meshi/manage.py migrate
 $ python3 meshi/manage.py createsuperuser
 ```
 
-### 10. Run the test server
+### 10. Run test
+
+#### 1. In order to finish setup successfully, all tests must give positive results
+
+#### 2. How to run tests:
+
+#### 3. Command example...
+Execute the following command ...
+```sh
+...
+```
+
+### 11. Run the test server
 
 ```sh
 # run the test server to verify correct setup
