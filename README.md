@@ -138,7 +138,7 @@ $ python3 meshi/manage.py createsuperuser
 In order to finish setup successfully, all tests have to pass without throwing any errors.
 
 ```sh
-# execute command to run test for specific app
+# execute command to run tests for specific app
 $ python3 manage.py test app_name
 ```
 
