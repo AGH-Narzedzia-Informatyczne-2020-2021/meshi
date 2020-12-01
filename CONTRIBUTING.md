@@ -15,8 +15,9 @@ After contributing, please submit a request in order to be added to the [contrib
 >>### a. [Initial Setup](#initial-setup)
 >>### b. [Issue Creation Process](#issue-creation-process)
 >>### c. [Development Process](#development-process)
->>### d. [Pull Request Process](#pull-request-process)
->>### e. [Black workflow - linting python code](#black-workflow---linting-python-code)
+>>### d. [Black workflow - linting python code](#black-workflow---linting-python-code)
+>>### e. [Testing](#testing)
+>>### f. [Pull Request Process](#pull-request-process)
 
 # General rules
 
@@ -128,14 +129,27 @@ $ git reset HEAD example.html
 $ git status
 ```
 
-Before commiting see [committing rules](#2-commits)
+Before commiting: 
+* see [committing rules](#2-commits)
+* write adequate tests - see [testing]() for further detail
+* lint code with black - see section on [code linting]()
 
 ```sh
 # commit changed files
 $ git commit -m "Short message describing done changes"
 ```
 
-### 3. Pull possible changes to your branch from remote repository and resolve all the merge conflicts (fix conflicting commits before pushing changes)
+### 3. Publish your changes on the remote repository (everybody will be able to get them)
+
+```sh
+$ git push origin 235
+# or simply
+$ git push
+```
+
+### 3. Uppon pushing the first commit open a new Pull Request. (See [Pull Request Process Section](#pull-request-process))
+
+### 4.  When finished working on the Issue: **pull possible changes** to your branch from remote repository and **resolve all the possible merge conflicts** (fix conflicting commits before pushing changes)
 
 ```sh
 $ git pull origin 235
@@ -143,13 +157,28 @@ $ git pull origin 235
 $ git pull
 ```
 
-### 4. Send your changes from your local machine to the remote repository (everybody will be able to get them)
+## Black workflow - linting python code
+
+### 1. Usage
+Execute the following command in the project root directory if you are planning to commit the changed python files.
 
 ```sh
-$ git push
+$ black -q */*.py
 ```
 
-### 5. When finished working on the Issue open a new Pull Request. (See [Pull Request Process Section](#pull-request-process))
+## Testing
+
+### 1. When working on the Django project, you must **create adequate unit tests** for the developed functionalities/code
+
+### 2. Before pushing your code to the repository, check if all tests are passed, otherwise resolve problems locally first
+
+### 3. Pull request **will not** be merged without proper code tests
+
+### 4. Run tests for each Django project application
+
+```sh
+$ python3 manage.py test app_name
+```
 
 ## Pull Request Process
 
@@ -183,11 +212,4 @@ $ git checkout dev
 
 # merge your branch into destination branch
 $ git merge 235
-```
-
-## Black workflow - linting python code  
-### 1. Usage
-Execute the following command in the project root directory if you are planning to commit the changed python files.
-```sh
-$ black -q */*.py
 ```
