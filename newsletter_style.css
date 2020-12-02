@@ -1,0 +1,36 @@
+
+
+#newsletter {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.content {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 5px;
+}
+
+#subscribe {
+    color: white;
+    background-color: blueviolet;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    height: 68px;
+    width: 100px;
+    font-weight: bold;
+}
+
+#email {
+    margin-right: 10px;
+    font-size: 20px;
+    width: 550px;
+    height: 60px;
+    text-align: center;
+    font-family: sans-serif;
+}
