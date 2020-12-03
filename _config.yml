@@ -1,1 +1,5 @@
 theme: jekyll-theme-time-machine
+
+title: [Meshi]
+description: [Personal meal planner]
+show_downloads: false
