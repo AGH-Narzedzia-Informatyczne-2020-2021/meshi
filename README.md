@@ -4,18 +4,144 @@ Personal meal planner
 
 ## Table of contents  
 
-> ### 1. [Initial setup](#initial-setup)
-> ### 2. [Project documentation on Overleaf](#project-documentation-on-overleaf)  
-> ### 3. [Project licence - MIT](#project-licence---mit)
-> ### 4. [How to contribute](#how-to-contribute)
-> ### 5. [Our gists](#our-gists)  
-> ### 6. [Technologies used](#technologies-used) 
-> ### 7. [Assets used](#assets-used) 
+> ### 1. [Run on docker](#run-on-docker)
+> ### 2. [Initial setup](#initial-setup)
+> ### 3. [Project documentation on Overleaf](#project-documentation-on-overleaf)
+> ### 4. [Project licence - MIT](#project-licence---mit)
+> ### 5. [How to contribute](#how-to-contribute)
+> ### 6. [Our gists](#our-gists)
+> ### 7. [Technologies used](#technologies-used)
+> ### 7. [Assets used](#assets-used)
 
+## Run on Docker
 
+### 1. Install **docker** and **docker-compose**
 
+For Debian based system follow the guide on the [official docker website](https://docs.docker.com/engine/install/debian/). Follow the installation method of your choosing. The [Install using the repository method](https://docs.docker.com/engine/install/debian/#install-using-the-repository) is recommended.
 
-        
+```sh
+# verify that docker engine is installed correctly
+$ sudo docker run hello-world
+
+# Run the following command to use Docker as a non-root user (add your user to the “docker” group)
+$ sudo usermod -aG docker your_username
+# Remember to log out and back in for this to take effect!
+```
+
+> If you are using the **VS Code IDE** consider installing the [docker extention](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker).
+
+**Free the port 5432**
+
+If you have previously proceeded with the default project setup, you most likely will have Postgres running on your system. You need to free up the post used by the Postgres server in order to proceed.
+
+```sh
+# check if you have postgres installed and running
+$ systemctl status postgresql
+
+# if you do, then stop the database server
+# freeing the port nr 5432 for the docker container
+$ systemctl stop postgresql
+
+# in the future, if you would like to
+# run localy installed postgres server siply run
+$ systemctl start postgresql
+```
+
+### 2. Install docker-compose
+
+Choose a method for instaling docker-compose your operating system from [the official website](https://docs.docker.com/compose/install/#install-compose).
+
+```sh
+# verify the correct instalation
+$ docker-compose --version
+```
+
+### 3. Create .env file in project_root/meshi
+
+```sh
+# move to directory containing manage.py file
+$ cd /meshi
+# create .env file containing project secrets
+$ touch .env
+```
+
+Write secrets to file. For correct file content contact [Meshi developers](https://github.com/orgs/AGH-Narzedzia-Informatyczne/teams/meshi-developers) team member.
+
+### 4. Build docker containers
+
+The initial build may take some time. Subsequent builds will be faster due to using cache.
+
+```sh
+# in the location of the docker-compose.yml
+$ docker-compose build
+```
+
+### 5. Run containers
+
+```sh
+# in the location of the docker-compose.yml
+$ docker-compose up
+```
+
+Shutdown containers using `Ctrl+C`
+
+### 6. Enter the meshi_django container
+
+You can use the **docker extention for VS Code** to enter a container. Right-click the container and choose 'Attach Shell' option.
+
+```sh
+# list running docker containers
+# and get the ids
+docker ps
+
+# attach shell to a specified container
+# the unique first couple characters of the container id will suffice
+$ docker exec -it [container-id] bash
+```
+
+### 7. Apply migrations [inside container]
+
+```sh
+# apply all migrations
+$ python3 meshi/manage.py migrate
+```
+
+### 8. Create superuser (django admin) [inside container]
+
+```sh
+# provide: username, email, password
+# any credentials will do in development environment, e.g.
+# username: admin
+# email - blank
+# password: admin
+$ python3 meshi/manage.py createsuperuser
+```
+
+### 9. Run test for each Django project application [inside container]
+
+In order to finish the setup successfully, all tests have to pass without throwing any errors.
+
+```sh
+# execute command to run tests for specific app
+$ python3 manage.py test app_name
+```
+
+### 10. Stoping and removing containers
+
+Stop and remove containers, networks, images, and volumes
+
+```sh
+docker-compose down
+```
+
+You can additionally perform a system prune.
+
+The docker `system prune` command removes all stopped containers, dangling images, and unused networks:
+
+```sh
+$ docker system prune
+```
+
 ## Initial setup
 
 ### 1. Install **PostgreSQL v12.04** database
@@ -133,7 +259,16 @@ $ python3 meshi/manage.py migrate
 $ python3 meshi/manage.py createsuperuser
 ```
 
-### 10. Run the test server
+### 10. Run test for each Django project application
+
+In order to finish setup successfully, all tests have to pass without throwing any errors.
+
+```sh
+# execute command to run tests for specific app
+$ python3 manage.py test app_name
+```
+
+### 11. Run the test server
 
 ```sh
 # run the test server to verify correct setup
@@ -156,7 +291,7 @@ To check the list of project contributors view the [contributors list](Contribut
 | :--------------- | :-----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
 | Mazur Aleksander |        [kolko_krzyzyk3x3](https://gist.github.com/Aleksander2a/b701448e05cc69c24070870e083476da)        |             [kolko_krzyzyk10x10](https://gist.github.com/Aleksander2a/6cce0ed5f621989691415f796fff3875)             |
 | Karpiuk Jan      |            [python_calc.py](https://gist.github.com/Laronk/b973296a4c4292e11fc3e5f4f83a1622)            |               [python_try_except.py](https://gist.github.com/Laronk/3caea800b8766f2a7f9631fcfd266549)               |
-| Henel Daniel     |                [add_item](https://gist.github.com/danielhenel/d651fff7476fe61fae9ee729d2d1779d)                                                                                         |     [copy_list](https://gist.github.com/danielhenel/106d7982e495533e3c32271fff25bf80)                                                                                                                |
+| Henel Daniel     |            [add_item](https://gist.github.com/danielhenel/d651fff7476fe61fae9ee729d2d1779d)             |                  [copy_list](https://gist.github.com/danielhenel/106d7982e495533e3c32271fff25bf80)                  |
 | Gacek Piotr      |        [ciag_fibonacciego](https://gist.github.com/piotrekg35/1c4ca47814d7a80a980a121123ac980e)         |                     [str](https://gist.github.com/piotrekg35/cf06897c09441e63ba327a004dbbc2ba)                      |
 | Szpunar Jakub    | [account_model_v1](https://gist.github.com/YgLK/27ab4f06ab80e0c3195ac52a5bd84e75#file-account_model_v1) | [custom_passw_validator](https://gist.github.com/YgLK/b6d818cdd23b1ab0be983b2166c48655#file-custom_passw_validator) |
 
@@ -172,6 +307,6 @@ To check the list of project contributors view the [contributors list](Contribut
 
 ## Assets used  
 
-| Description | Author |  License |
-| :-----: | :-----: | :-----: |
+|          Description          |              Author               |                                 License                                  |
+| :---------------------------: | :-------------------------------: | :----------------------------------------------------------------------: |
 | Repository social media image | [Freepik](http://www.freepik.com) | [Free Freepik License](https://www.freepikcompany.com/legal#nav-freepik) |
