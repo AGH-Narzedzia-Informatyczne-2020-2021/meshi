@@ -32,7 +32,7 @@ SECRET_KEY = os.environ["SECRET_KEY"]  # Instead of your actual secret key
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["127.0.0.1", "0.0.0.0", "localhost"]
 
 
 # Application definition
@@ -80,14 +80,20 @@ WSGI_APPLICATION = "meshi.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
+database_host = "127.0.0.1"
+try:
+    database_host = os.environ["DB_HOST"] if os.environ["DB_HOST"] else "127.0.0.1"
+except KeyError as error:
+    database_host = "127.0.0.1"
+
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
         "NAME": os.environ["DB"],
         "USER": os.environ["DB_USER"],
         "PASSWORD": os.environ["DB_USER_PASSWORD"],
-        "HOST": "127.0.0.1",
-        "PORT": "5432",
+        "HOST": database_host,
+        "PORT": 5432,
     }
 }
 

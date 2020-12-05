@@ -1,0 +1,36 @@
+version: "3.7"
+   
+services:
+  db:
+    image: meshi_db:v0.1
+    container_name: meshi_db
+    build:
+      context: ./database
+      dockerfile: Dockerfile
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    env_file:
+      - ./meshi/.env
+    ports:
+      - "5432:5432"
+    expose:
+      - "5432"
+
+  web:
+    image: meshi_django:v1.0
+    container_name: meshi_web
+    build:
+      context: ./meshi
+      dockerfile: Dockerfile
+    command: python3 meshi/manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    environment:
+      - DB_HOST=db
+    depends_on:
+      - db
+
+volumes:
+  postgres_data:
