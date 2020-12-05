@@ -149,7 +149,7 @@ $ git push
 
 ### 3. Uppon pushing the first commit open a new Pull Request. (See [Pull Request Process Section](#pull-request-process))
 
-### 4.  When finished working on the Issue: **pull possible changes** to your branch from remote repository and **resolve all the possible merge conflicts** (fix conflicting commits before pushing changes)
+### 4. When finished working on the Issue: **pull possible changes** to your branch from remote repository and **resolve all the possible merge conflicts** (fix conflicting commits before pushing changes)
 
 ```sh
 $ git pull origin 235
