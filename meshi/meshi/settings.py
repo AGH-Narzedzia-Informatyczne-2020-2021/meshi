@@ -80,10 +80,12 @@ WSGI_APPLICATION = "meshi.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-database_host = "127.0.0.1"
 try:
+    # if docker-compose environment variable defined
+    # assume database running on docker container
     database_host = os.environ["DB_HOST"] if os.environ["DB_HOST"] else "127.0.0.1"
 except KeyError as error:
+    # else assume database running locally
     database_host = "127.0.0.1"
 
 DATABASES = {
