@@ -1,5 +1,12 @@
 body {
+    padding: 0px;
+    margin: 0px;
     background-color: green;
+}
+
+html {
+    padding: 0px;
+    margin: 0px;
 }
 
 #newsletter {
@@ -11,14 +18,14 @@ body {
     font-size: 20px;
 }
 
-.content {
+#newsletter .content {
     text-align: center;
     background-color: rgba(255, 255, 255, 0);
     color: white;
     padding-bottom: 5px;
 }
 
-#subscribe {
+#newsletter #subscribe {
     color: white;
     background-color: rgb(127, 117, 205);
     font-family: sans-serif;
@@ -30,7 +37,7 @@ body {
     border: none;
 }
 
-#email {
+#newsletter #email {
     margin-right: 10px;
     font-size: 25px;
     width: 550px;
@@ -39,6 +46,6 @@ body {
     font-family: sans-serif;
 }
 
-::placeholder {
+#newsletter #email::placeholder {
     color: black;
 }
