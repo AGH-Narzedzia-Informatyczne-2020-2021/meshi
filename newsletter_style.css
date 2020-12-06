@@ -1,0 +1,51 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: green;
+}
+
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+#newsletter {
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#newsletter .content {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    padding-bottom: 5px;
+}
+
+#newsletter #subscribe {
+    color: white;
+    background-color: rgb(127, 117, 205);
+    font-family: sans-serif;
+    text-transform: uppercase;
+    height: 85px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+}
+
+#newsletter #email {
+    margin-right: 10px;
+    font-size: 25px;
+    width: 550px;
+    height: 75px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#newsletter #email::placeholder {
+    color: black;
+}
