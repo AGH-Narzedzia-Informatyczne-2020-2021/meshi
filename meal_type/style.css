@@ -2,3 +2,22 @@ html, body{
     padding: 0;
     margin: 0;
 }
+#meal-types{
+    background-color: #E5E5E5;
+    
+
+}
+.meal{
+    float: left;
+    width: 33.33%;
+
+}
+
+h3{
+    text-align: center;
+}
+.meal-photo{
+    border-radius: 25px;
+    height: 200px;
+    width: 100%;
+}
