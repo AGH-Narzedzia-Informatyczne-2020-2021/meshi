@@ -6,7 +6,6 @@ html, body{
 #meal-types .meal{
     float: left;
     width: 33.33%;
-
 }
 
 #meal-types h3{
@@ -14,7 +13,7 @@ html, body{
     font-family: sans-serif;
     color: white;
     text-transform: uppercase;
-    padding-bottom: 0%;
+    margin-bottom: 0%;
 }
 #meal-types .meal-photo{
     border-radius: 25px;
