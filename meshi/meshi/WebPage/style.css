@@ -19,6 +19,7 @@ html, body {
     position: relative;
     top: 10px;
     font-family: Arial;
+    font-weight: bold;
     background-color: #ffffff;
     color: #000000;
     border-radius: 20px;
