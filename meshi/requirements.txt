@@ -25,7 +25,7 @@ docopt==0.6.2
 entrypoints==0.3
 filelock==3.0.12
 grpcio==1.16.1
-httplib2==0.14.0
+httplib2==0.19.0
 idna==2.8
 ifaddr==0.1.6
 importlib-metadata==1.5.0
